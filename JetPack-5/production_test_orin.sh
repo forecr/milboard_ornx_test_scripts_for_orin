@@ -156,42 +156,42 @@ function test_menu {
 			8 )
 				echo "RS232_0 Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs232_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs232_orin.sh
 				;;
 			9 )
 				echo "RS422_0 Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs422_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs422_orin.sh
 				;;
 			10 )
 				echo "RS485_0 Write Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs485_write_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs485_write_orin.sh
 				;;
 			11 )
 				echo "RS485_0 Read Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs485_read_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch0_rs485_read_orin.sh
 				;;
 			12 )
 				echo "RS232_1 Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs232_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs232_orin.sh
 				;;
 			13 )
 				echo "RS422_1 Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs422_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs422_orin.sh
 				;;
 			14 )
 				echo "RS485_1 Write Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs485_write_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs485_write_orin.sh
 				;;
 			15 )
 				echo "RS485_1 Read Test"
 				check_nvgetty_service
-				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs485_read_orin.sh $board_rev_1_2
+				sudo gnome-terminal -- $SCRIPTS_FOLDER/test_ch1_rs485_read_orin.sh
 				;;
 			16 )
 				echo "CAN Bus-0 (Transmit) Test"
